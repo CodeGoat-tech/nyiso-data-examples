@@ -1,0 +1,3 @@
+from nyisotoolkit import NYISOData
+df = NYISOData(dataset='lbmp_rt_5m', year='2023').df  # Returns Pandas DataFrame in UTC
+df = df.tz_convert('US/Eastern')  # Optional: Convert to local time
