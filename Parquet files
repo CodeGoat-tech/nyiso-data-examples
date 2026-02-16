@@ -1,0 +1,3 @@
+years = ['2023', '2024', '2025']
+datasets = ['lbmp_rt_5m', 'lbmp_dam_h', 'load_5m']
+NYISOData.construct_databases(years=years, datasets=datasets, redownload=True, reconstruct=True)
